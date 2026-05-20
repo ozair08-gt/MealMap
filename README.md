@@ -1,6 +1,10 @@
-# 🥗 Patient-Specific Meal Recommendation System
+### MealMap
 
 Personalized meal recommendation system for users with specific health conditions and fitness goals.
+
+## Live Demo
+
+[Open MealMap](https://mealmap-g4jcgipkpcnfynzdpp3cmw.streamlit.app)
 
 ## Features
 
@@ -11,6 +15,14 @@ Personalized meal recommendation system for users with specific health condition
 - Authentication system
 - Nutrition analytics dashboard
 
+## Supported Conditions
+
+- Diabetes
+- Hypertension
+- Obesity
+- PCOS
+- Kidney Disease
+
 ## Tech Stack
 
 - Python
@@ -18,6 +30,13 @@ Personalized meal recommendation system for users with specific health condition
 - MongoDB Atlas
 - Plotly
 - Pandas
+
+## Demo Login
+
+Use the following credentials to explore the app:
+
+Email: demo@mealmap.com  
+Password: mealmap_demo
 
 ## Supported Conditions
 
@@ -27,7 +46,7 @@ Personalized meal recommendation system for users with specific health condition
 - PCOS
 - Kidney Disease
 
-## Setup
+## Local Setup
 
 ```bash
 pip install -r requirements.txt
