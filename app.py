@@ -49,7 +49,7 @@ def render_auth_page():
                 </p>
                 <div style="background: #F0FDF4; padding: 20px 16px; border-radius: 10px; border-left: 4px solid #22C55E;">
                     <p style="color: #15803D; font-size: 0.9rem; margin: 0;">
-                        ✓ AI-driven recommendations<br>
+                        ✓ Personalised recommendations<br>
                         ✓ Supports 5 medical conditions<br>
                         ✓ Personalized nutrition tracking<br>
                         ✓ Weekly meal planning
