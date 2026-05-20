@@ -38,13 +38,19 @@ Use the following credentials to explore the app:
 Email: demo@mealmap.com  
 Password: mealmap_demo
 
-## Supported Conditions
+## Screenshots
 
-- Diabetes
-- Hypertension
-- Obesity
-- PCOS
-- Kidney Disease
+### Login Page
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Recommendations
+![Recommendations](screenshots/recommendations.png)
+
+### Analytics
+![Analytics](screenshots/analytics.png)
 
 ## Local Setup
 
