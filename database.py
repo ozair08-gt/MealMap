@@ -17,14 +17,14 @@ _client = None
 def get_client():
     global _client
     if _client is None:
-        uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017/")
+        uri = st.secrets.get("MONGODB_URI", os.getenv("MONGODB_URI", "mongodb://localhost:27017/"))
         _client = MongoClient(uri, serverSelectionTimeoutMS=5000)
     return _client
 
 
 def get_db():
     client = get_client()
-    db_name = os.getenv("MONGODB_DB", "meal_recommendation_db")
+    db_name = st.secrets.get("MONGODB_DB", os.getenv("MONGODB_DB", "meal_recommendation_db"))
     return client[db_name]
 
 
